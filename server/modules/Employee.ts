@@ -3,8 +3,9 @@ import * as data from '../modules/data/names.json';
 import { Position } from './enums/Position.js';
 import { MeritIncrease } from './enums/MeritIncrease.js';
 import { randomNumber } from './utils/randomNumber';
+import { IPerson } from './interfaces/IPerson.js';
 
-export class Employee {
+export class Employee implements IPerson{
     private firstName: string;
     private lastName: string;
     private salary: number;

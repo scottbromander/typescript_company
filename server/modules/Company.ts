@@ -19,6 +19,7 @@ export class Company {
 
     constructor() {
         // this.init();
+        
     }
 
     public init(): void {
@@ -156,4 +157,13 @@ export class Company {
     public getHireLog(): string[] {
         return this.historyLog.getHireLog();
     }
+
+    // public getAllPeople(): Object[] {
+    //     // Pull from employee list, client list, 3rd party list
+    //     const allPeople: Object[] = [];
+    //     // loop through all employees and push into allPeople array
+    //     // loop through all clients and push into all people array
+    //     // getFirstName
+    //     allPeople[1].getFirstName();
+    // }
 }
